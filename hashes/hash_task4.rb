@@ -1,4 +1,4 @@
-#hash task 4.rb
+#hash task 4.rb -> print out
 
 person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
 
@@ -9,3 +9,8 @@ end
 print_out = person_name.values.flatten
 
 p print_out
+
+
+### much easier and just access/select
+
+puts person[:name]
